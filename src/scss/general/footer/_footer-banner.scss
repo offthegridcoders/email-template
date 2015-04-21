@@ -5,9 +5,10 @@
   .footer-banner-td {
     width: 100%;
     height: 200px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 50%;
-    background-image: url('images/footer-banners/footer-banner.png');
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
   }
 }

@@ -1,0 +1,52 @@
+.image-gallery-three-pictures {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+
+  h2 {
+    font-size: 12px;
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+  }
+
+  span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+  td {
+    width: 50%;
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+  .purple {
+    background-color: $purple;
+  }
+
+  .pink {
+    background-color: $pink;
+  }
+
+  .blue {
+    background-color: $blue;
+  }
+
+  .orange {
+    background-color: $orange;
+  }
+}
+
+

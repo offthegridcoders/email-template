@@ -40,7 +40,7 @@ gulp.task('img-copy', function() {
 });
 
 gulp.task('zip', ['build'], function () {
-  return gulp.src('src/*')
+  return gulp.src('dist/**/*.*')
     .pipe(zip('archive.zip'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('zipped'));
 });
