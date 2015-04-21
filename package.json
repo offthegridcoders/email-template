@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "gulp": "*",
-    "gulp-sass": "^1.3.3"
+    "gulp-sass": "^1.3.3",
+    "gulp-zip": "^3.0.2"
   }
 }
