@@ -6,7 +6,8 @@ var zip = require('gulp-zip');
 var paths = {
   scss: './src/scss/**/*.scss',
   html: './src/index.html',
-  assets: './src/images/**.*',
+  assets: './src/images/**/*.*',
+  distFonts: './dist/fonts/',
   distDir: 'dist/',
   distImages: 'dist/images',
   cssDir: './src/css'
@@ -15,6 +16,7 @@ var paths = {
 gulp.task('default', ['build', 'zip'], function() {
   return gulp.watch([
       paths.scss,
+      paths.cssDir,
       paths.html,
       paths.assets
     ], ['default']);

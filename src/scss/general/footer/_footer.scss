@@ -1,0 +1,39 @@
+.footer {
+  margin-top: 20px;
+  text-align: center;
+
+  .social-links {
+    border-top: solid 2px $light-gray;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      width: 30px;
+    }
+
+    td {
+      padding-top: 20px;
+    }
+  }
+
+  .copy-td {
+    padding: 20px;
+  }
+
+  a {
+    color: $gray;
+  }
+
+  .copy {
+    color: $gray;
+    font-size: 12px;
+
+    span {
+      text-transform: uppercase;
+      color: $purple;
+    }
+  }
+}
+

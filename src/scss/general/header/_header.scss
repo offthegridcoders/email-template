@@ -1,0 +1,54 @@
+.header-table {
+  width: 100%;
+
+  .logo-container {
+    text-align: left;
+
+    .logo {
+      max-height: 50px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .sm-td {
+      vertical-align: bottom;
+      width: 35px;
+    }
+
+    .sm-icons {
+      width: 100%;
+      padding: 3px;
+    }
+  }
+
+  .main-copy-td {
+    overflow: hidden;
+  }
+
+  .main-copy-container {
+    background-color: $dark-blue;
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    p {
+      font-size: 36px;
+      margin: 0;
+      padding: 15px;
+      text-align: center;
+    }
+
+    span {
+      font-size: 44px;
+      font-style: italic;
+      font-family: 'Georgia';
+      text-transform: capitalize;
+      color: $dark-purple;
+    }
+  }
+
+  .header-image-td {
+    text-align: center;
+  }
+}
