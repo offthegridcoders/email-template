@@ -15,7 +15,12 @@ help create a baseline for you to work from.
 .ExternalClass {
   width: 100%; }
 
-.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
   line-height: 100%; }
 
 /*
@@ -135,157 +140,66 @@ is used here, just with the ms vendor prefix instead of the webkit one.
 body {
   -ms-text-size-adjust: 100%; }
 
-button {
-  cursor: pointer;
-  text-transform: uppercase;
-  padding: 10px 15px;
-  font-size: 16px;
-  font-weight: 800; }
-
-.btn-orange {
-  background-color: #f7931e;
-  color: #fff; }
-
-* {
-  font-family: 'Trebuchet MS', helvetica, sans-serif;
-  border: 0; }
-
 body {
-  background-color: #d1d3d4; }
+  background-color: #eee; }
+  body * {
+    border: 0;
+    font-family: Verdana, Geneva, sans-serif; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+  margin: 0 15px; }
 
 .main-table-wrapper {
   background-color: #fff;
   margin: 0 auto;
   max-width: 600px;
   min-width: 320px; }
+  .main-table-wrapper .logo {
+    padding: 15px; }
+  .main-table-wrapper .email-title {
+    padding-left: 15px; }
+  .main-table-wrapper h3 {
+    margin: 0 15px 15px; }
 
-.header-table {
-  width: 100%; }
-  .header-table .logo-container {
-    text-align: left; }
-    .header-table .logo-container .logo {
-      max-height: 50px;
-      margin-top: 10px;
-      margin-left: 10px; }
-    .header-table .logo-container .sm-td {
-      width: 35px;
-      vertical-align: bottom; }
-    .header-table .logo-container .sm-icons {
-      width: 25px;
-      padding: 5px; }
-  .header-table .main-copy-td {
-    overflow: hidden; }
-  .header-table .main-copy-container {
-    background-color: #29aae2;
-    color: #fff;
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 15px; }
-    .header-table .main-copy-container p {
-      font-size: 36px;
-      margin: 0;
-      padding: 15px;
-      text-align: center; }
-    .header-table .main-copy-container span {
-      font-size: 44px;
-      font-style: italic;
-      font-family: 'Georgia';
-      text-transform: capitalize;
-      color: #8639b7; }
-  .header-table .header-image-td {
-    text-align: center; }
+.details-table .header {
+  background-color: #3FA294;
+  color: #fff; }
+  .details-table .header td {
+    padding: 5px;
+    border: solid 1px #fff;
+    font-size: 14px; }
 
-.footer-banner {
-  background-color: #a689b7;
-  width: 100%; }
-  .footer-banner .footer-banner-td {
-    width: 100%;
-    height: 200px;
-    overflow: hidden; }
-    .footer-banner .footer-banner-td img {
-      width: 100%; }
+.details-table .body:nth-child(even) {
+  background-color: #eee; }
+
+.details-table .body td {
+  font-size: 14px;
+  padding: 5px;
+  border: solid 1px #ccc; }
+
+.details-table .gap-row {
+  height: 20px; }
+
+.details-table .totals-header {
+  background-color: #3FA294;
+  border: 0;
+  color: #fff; }
+  .details-table .totals-header td {
+    padding: 5px;
+    font-size: 14px; }
+
+.details-table .total-hours-row {
+  font-size: 14px; }
+  .details-table .total-hours-row td {
+    border: solid 1px #ccc;
+    padding: 5px; }
+
+.details-table .total-hours-row:nth-child(even) {
+  background-color: #eee; }
 
 .footer {
-  margin-top: 20px;
-  text-align: center; }
-  .footer .social-links {
-    border-top: solid 2px #d1d3d4; }
-    .footer .social-links a {
-      text-decoration: none; }
-    .footer .social-links img {
-      width: 30px; }
-    .footer .social-links td {
-      padding-top: 20px; }
-  .footer .copy-td {
-    padding: 20px; }
-  .footer a {
-    color: #808285; }
-  .footer .copy {
-    color: #808285;
-    font-size: 12px; }
-    .footer .copy span {
-      text-transform: uppercase;
-      color: #8639b7; }
-
-.simple-copy-btn-right .copy-td {
-  padding: 20px;
-  width: 60%; }
-  .simple-copy-btn-right .copy-td h2 {
-    font-size: 19px;
-    color: #29aae2;
-    margin-bottom: 5px; }
-  .simple-copy-btn-right .copy-td p {
-    margin-top: 0; }
-.simple-copy-btn-right .btn-td {
-  text-align: center; }
-
-.simple-copy-banner {
-  width: 100%;
-  text-align: center; }
-  .simple-copy-banner td {
-    padding: 40px 20px; }
-  .simple-copy-banner h2 {
-    color: #8639b7;
-    font-weight: 400;
-    margin-bottom: 0; }
-    .simple-copy-banner h2 span {
-      color: #f7931e;
-      font-weight: 800; }
-  .simple-copy-banner p {
-    color: #8639b7;
-    margin-top: 5px; }
-
-.image-gallery-three-pictures {
-  margin-top: 15px;
   text-align: center;
-  width: 100%; }
-  .image-gallery-three-pictures h2 {
-    font-size: 12px;
-    padding: 15px;
-    color: #fff;
-    text-align: left;
-    margin: 0; }
-  .image-gallery-three-pictures span {
-    text-transform: uppercase;
-    display: block;
-    font-size: 16px; }
-  .image-gallery-three-pictures img {
-    width: 100%; }
-  .image-gallery-three-pictures td {
-    width: 50%;
-    padding: 10px;
-    vertical-align: top; }
-  .image-gallery-three-pictures tr {
-    width: 100%; }
-  .image-gallery-three-pictures .purple {
-    background-color: #8639b7; }
-  .image-gallery-three-pictures .pink {
-    background-color: #ee2b7b; }
-  .image-gallery-three-pictures .blue {
-    background-color: #75caed; }
-  .image-gallery-three-pictures .orange {
-    background-color: #ffc663; }
+  font-size: 14px;
+  padding: 10px; }

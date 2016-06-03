@@ -1,0 +1,54 @@
+.details-table {
+  .header {
+    background-color: #3FA294;
+    color: #fff;
+
+    td {
+      padding: 5px;
+      border: solid 1px #fff;
+      font-size: 14px;
+    }
+  }
+
+  .body:nth-child(even) {
+    background-color: #eee;
+  }
+
+  .body {
+
+    td {
+      font-size: 14px;
+      padding: 5px;
+      border: solid 1px #ccc;
+    }
+  }
+
+  .gap-row {
+    height: 20px;
+  }
+
+  .totals-header {
+    background-color: #3FA294;
+    border: 0;
+    color: #fff;
+
+    td {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+
+  .total-hours-row {
+    font-size: 14px;
+
+    td {
+      border: solid 1px #ccc;
+      padding: 5px;
+    }
+  }
+
+  .total-hours-row:nth-child(even) {
+    background-color: #eee;
+  }
+}
+

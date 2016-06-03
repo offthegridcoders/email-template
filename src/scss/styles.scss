@@ -1,13 +1,4 @@
 @import 'default/client-specific';
-@import 'variables/variables';
-
-@import 'helpers/buttons';
-@import 'general/general';
-@import 'general/header/header';
-@import 'general/footer/footer-banner';
-@import 'general/footer/footer';
-@import 'general/simple-copy-btn-right/simple';
-@import 'general/simple-copy-banner/simple';
-
-@import 'general/image-gallery/three-pictures';
-
+@import 'default/defaults';
+@import 'modules/details-table';
+@import 'modules/footer';
